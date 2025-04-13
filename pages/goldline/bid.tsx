@@ -1,0 +1,1 @@
+export default function Bid() { return <div>사장님 입찰 폼</div>; }

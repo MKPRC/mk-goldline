@@ -1,0 +1,1 @@
+export default function GoldLine() { return <div>Gold Line 메인</div>; }

@@ -1,0 +1,1 @@
+export default function Submit() { return <div>고객 금 접수 폼</div>; }
