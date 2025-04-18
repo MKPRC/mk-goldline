@@ -59,7 +59,7 @@ export default function Home() {
         <footer className="bg-gray-100 text-center text-sm py-6">
           <p>
             고객센터 |{" "}
-            <a href=\"/partner\" className=\"underline\">사업자 전용</a> | © 2025 GoldLine
+            <a href="/partner" className="underline">사업자 전용</a> | © 2025 GoldLine
           </p>
         </footer>
       </main>
