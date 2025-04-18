@@ -13,12 +13,12 @@ export default function BidPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState("");
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setMessage("");
@@ -64,7 +64,7 @@ export default function BidPage() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center px-4 py-12">
-      <h1 className="text-3xl font-extrabold text-gold-400 mb-6">사장님 입찰하기</h1>
+      <h1 className="text-3xl font-extrabold text-yellow-400 mb-6">사장님 입찰하기</h1>
       <p className="text-gray-400 mb-6 text-center">
         고객의 금 정보를 확인하고, 제시하실 가격과 조건을 입력해주세요.
       </p>
